@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+notebooks/
+interview_files/
+literature_review/
+.git/
+*.md
+models/test_predictions.csv
