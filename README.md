@@ -48,7 +48,7 @@ curl http://localhost:8000/health
 curl -X POST http://localhost:8000/predict \
   -H "Content-Type: application/json" \
   -d @scripts/sample_payload.json
-# {"predicted_titer": 2564.12, "confidence_lower": 2103.45, "confidence_upper": 3021.78}
+# {"predicted_titer": 2564.11, "confidence_lower": 2250.79, "confidence_upper": 3209.69}
 ```
 
 See `scripts/sample_payload.json` for the expected payload shape (one experiment = `timestamps` + `values` dict with Z:/W:/X: variables).
